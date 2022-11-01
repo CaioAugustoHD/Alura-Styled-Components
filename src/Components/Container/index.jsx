@@ -3,14 +3,16 @@ import React from "react";
 import { Titulo } from "../Titulo";
 import Conta from "../Conta";
 
+import { DivConteiner, Conteudo } from "./style";
+
 const Container = () => {
   return (
-    <div className="container">
+    <DivConteiner>
       <Titulo>Olá Fulano!</Titulo>
-      <section className="conteudo">
+      <Conteudo>
         <Conta />
-      </section>
-    </div>
+      </Conteudo>
+    </DivConteiner>
   );
 };
 
