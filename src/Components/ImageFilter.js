@@ -17,6 +17,6 @@ export const ImageFilter = (type) => {
         Transporte: <Icone src={transporte} alt="Transporte"/>,
         default: <Icone src={outros} alt="Outros"/>
     }
-console.log(imagem[type]);
+
     return imagem[type] || imagem.default;
 }
