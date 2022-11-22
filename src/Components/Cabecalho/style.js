@@ -12,7 +12,8 @@ export const CabecalhoConteiner = styled.header`
 `
 export const Logo = styled.img`
   height: 50px;
-  width: 50px;  
+  width: 50px;
+  filter: ${({theme}) => theme.filter};
 `
 export const BtnCabecalho = styled.button`
   text-align: center;
@@ -20,7 +21,7 @@ export const BtnCabecalho = styled.button`
   padding: 5px 20px;
   margin: 0 10px;
   font-weight: 600;
-  border: 2px solid white;
-  background-color: ${props => props.primary ? "white" : corPrimaria};
-  color: ${props => props.primary ? corPrimaria : "white"};
+  border: 2px solid ${({theme}) => theme.inside};
+  background-color: ${props => props.primary ? props.theme.inside : corPrimaria};
+  color: ${props => props.primary ? corPrimaria : props.theme.inside};
 `

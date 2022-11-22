@@ -11,6 +11,7 @@ export const IconeTema = styled(Icone)`
 
 export const IconeMargin = styled(Icone)`
     margin-top: 2px;
+    filter: ${({theme}) => theme.filter}
 `
 
 export const Box = styled.div`
@@ -35,7 +36,8 @@ export const Botao = styled.button`
   border-radius: 20px;
   background-color: #41d3be;
   border: none;
-  color: white;
+  color: ${({theme}) => theme.inside};
+  /* color: white; */
   font-weight: 600;
   font-size: 14px;
   padding: 8px 20px;
