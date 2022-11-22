@@ -74,9 +74,19 @@ A principal funcionalidade do projeto é:
 &#xa0;
 
 ## :camera: Imagens
-**<p align="center">Imagem do projeto:</p>**
+**<p align="center">Exemplo de funcionamento:</p>**
 <div align="center">
-  <img src="public/temalight.png" alt="Imagem do projeto">
+  <img src="public/exemploprojeto.gif" alt="Funcionamento do projeto">
+</div>
+
+**<p align="center">Projeto em tema light:</p>**
+<div align="center">
+  <img src="public/temalight.png" alt="Tema light do projeto">
+</div>
+
+**<p align="center">Projeto em tema dark:</p>**
+<div align="center">
+  <img src="public/temadark.png" alt="Tema dark do projeto">
 </div>
 
 
