@@ -10,7 +10,7 @@ export const Extrato = () => {
         <Box>
             {extratoLista.updates.map((update) => {
                 return (
-                    <Itens type={update.type} from={update.from} value={update.value} date={update.date}/>
+                    <Itens key={update.from} type={update.type} from={update.from} value={update.value} date={update.date}/>
             )})}
             <Botao>Ver Mais</Botao>
         </Box>
